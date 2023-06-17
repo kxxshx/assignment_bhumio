@@ -1,5 +1,7 @@
 --  Database Schema (Postgresql)
 -- Queries to run after creating database
+CREATE DATABASE mydb;
+\c mydb; 
 DROP TABLE IF EXISTS stocks;
 CREATE TABLE stocks (
   "part" text PRIMARY KEY,
